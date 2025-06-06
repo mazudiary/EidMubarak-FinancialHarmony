@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', function () {
   const mobileBg = 'assets/bg_mobile.webp';
-  const desktopBg = 'assets/bg_desktop.webp';
+  const desktopBg = 'assets/bg_pc.webp';
 
   const isMobile = window.innerWidth <= 768;
   document.body.style.backgroundImage = `url('${isMobile ? mobileBg : desktopBg}')`;
